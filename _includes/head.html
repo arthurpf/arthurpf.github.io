@@ -1,0 +1,29 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1,user-scalable=no">
+  <meta name="description" content="Desenvolvedor Front-End, trabalha com desenvolvimento web e atualmente trabalha na B2W Digital.">
+  <meta name="keywords" content="developer, desenvolvedor, front-end, html5, javascript, js, css3, responsivo, rj, rio de janeiro, mobile, psd to html" />
+  <meta name="author" content="Arthur Pavão Franco" />
+
+
+  <!-- facebook -->
+  <meta property="og:title" content="Arthur Pavão Franco - Front-End Developer" />
+  <meta property="og:site_name" content="Arthur Pavão Franco"/>
+  <meta property="og:url" content="http://www.arthurpavao.com.br" />
+  <meta property="og:description" content="Arthur Pavão Franco, Desenvolvedor Front-End, trabalha com desenvolvimento web e atualmente trabalha na B2W Digital." />
+  <meta property="article:author" content="https://www.facebook.com/arthur.pavao.2" />
+
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300|Roboto+Slab' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="{{ "/css/basic.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" media="screen and (min-width: 35.5em)" href="{{ "/css/small.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" media="screen and (min-width: 48.063em)" href="{{ "/css/medium.css" | prepend: site.baseurl }}">
+  <!--[if lte IE 9]>
+    <link rel="stylesheet" href="{{ "/css/small.css" | prepend: site.baseurl }}">
+    <link rel="stylesheet" href="{{ "/css/medium.css" | prepend: site.baseurl }}">
+  <![endif]-->
+  <link rel="icon" href="favicon.ico">
+  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+  
+</head>

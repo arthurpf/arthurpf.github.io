@@ -1,0 +1,23 @@
+/* box */
+
+.box{
+	padding:10px;
+	margin-bottom:0;
+}
+
+
+/* lists */
+.lst-tp1{
+	font-size:0;
+	.it-tp1{
+		font-size:10px;
+		margin:0 10px 10px 0;
+		display:inline-block;
+	}
+}
+
+.lst-tp2{
+	font-size:1.5em;
+	list-style-type:disc;
+	list-style-position:inside;
+}

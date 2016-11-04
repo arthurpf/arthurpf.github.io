@@ -1,0 +1,11 @@
+# Site settings
+title: Arthur Pavão Franco - Front-End Developer
+email: contato@arthurpavao.com.br
+description: > # Arthur Pavão Franco, Desenvolvedor Front-End, trabalha com desenvolvimento web e atualmente trabalha na B2W Digital.
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://arthurpavao.com.br" # the base hostname & protocol for your site
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+markdown: kramdown

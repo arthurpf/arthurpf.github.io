@@ -1,0 +1,38 @@
+/* titles */
+
+%title-common{
+	margin:0 0 10px;
+	color:#546e22;
+
+	[class^="icon-"], [class*=" icon-"]{
+		margin-right:5px;
+		vertical-align:middle;
+	}
+}
+
+.title1{
+	@extend %title-common;
+	font-size:1.5em;
+}
+.title2{
+	@extend %title-common;
+	font-size:2em;
+}
+.title3{
+	@extend %title-common;
+	font-size:2.5em;
+}
+
+.text{
+	font-family: 'Roboto Slab', serif;
+	font-size:1.5em;
+}
+
+.text2{
+	font-size:1.5em;
+}
+
+.text3{
+	font-size:1.8em;
+}
+

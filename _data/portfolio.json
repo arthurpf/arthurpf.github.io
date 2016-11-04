@@ -1,0 +1,42 @@
+[
+	{
+		"name":'Ingresso.com',
+		"meta-name":'ingresso',
+		"img":"ingresso-com.jpg",
+		"url":"http://www.ingresso.com",
+		"description":"<p>Meu projeto atual. O novo checkout da Ingresso.com</p>",
+		"technologies":"AngularJS, HTML, CSS"
+	},
+	{
+		"name":'Bootleg Preacher',
+		"meta-name":'bootlegpreacher',
+		"img":"bootlegpreacher.jpg",
+		"url":"http://www.bootlegpreacher.co",
+		"description":"<p>Loja virtual baseada em OpenCart e totalmente customizada. Foi utilizado lightboxes, mosaicos e layouts bem originais.</p>",
+		"technologies":"OpenCart, HTML, CSS, JS"
+	},
+	{
+		"name":'MailerWeb',
+		"meta-name":'mailerweb',
+		"img":"mailerweb.jpg",
+		"url":"https://www.mailerweb.com.br",
+		"description":"<p>Site da MailerWeb, empresa de envio de e-mails.</p>",
+		"technologies":"Bootstrap, HTML, CSS, PHP"
+	},
+	{
+		"name":'Estética Pulse',
+		"meta-name":'esteticapulse',
+		"img":"estetica-pulse.jpg",
+		"url":"http://www.esteticapulse.com.br",
+		"description":"<p>Site institucional sobre empresa de estética Espaço Estética Pulse.</p>",
+		"technologies":"HTML, CSS, PHP"
+	},
+	{
+		"name":'[B] Seller',
+		"meta-name":'bseller',
+		"img":"bseller.jpg",
+		"url":"http://www.bseller.com.br",
+		"description":"<p>Site institucional da plataforma de loja virtual [B] Seller. Produto da B2W Digital</p>",
+		"technologies":"HTML, CSS, PHP"
+	},
+]
