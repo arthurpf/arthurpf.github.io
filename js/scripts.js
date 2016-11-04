@@ -1,15 +1,12 @@
 $(function(){
-	
-
-
 	/*toggle menu usuario*/
 	(function(){
 
 		var $hdMenuBtn = $('.hd-menu-btn'),
 		$mainMenuContainer = $('.main-menu-container');
-		$hdMenuBtn.bind('click touchstart keydown',function(e){
+		$hdMenuBtn.on('click touchstart keydown',function(e){
 
-			if(e.keyCode == 13 || e.keyCode == 0){
+			if(e.keyCode == 13 || e.keyCode == 0 || e.type == 'click' || e.type == 'touchstart'){
 
 				$mainMenuContainer.toggleClass('is-opened');
 
