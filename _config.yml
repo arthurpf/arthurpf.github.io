@@ -1,0 +1,11 @@
+# Site settings
+title: Arthur Pavão Franco - Front-End Developer
+email: arthurpf4@gmail.com
+description: > # Arthur Pavão Franco, Desenvolvedor Front-End, trabalha com desenvolvimento web..
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://arthurpavao.com.br" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username:  arthurpf
+
+# Build settings
+markdown: kramdown
