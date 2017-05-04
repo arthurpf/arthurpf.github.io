@@ -2,7 +2,7 @@
 	{
 		"name":'Ingresso.com',
 		"meta-name":'ingresso',
-		"img":"ingresso-com.jpg",
+		"img":"ingresso-com2.jpg",
 		"url":"http://www.ingresso.com",
 		"description":"<p>New ingresso.com catalog. Our goal was to make it faster without lose the high quality images, that is the website appeal. We make it by making performance improvements like adding a lazy loading feature.</p>",
 		"technologies":"AngularJS, HTML, CSS, JS"
