@@ -4,7 +4,15 @@
 		"meta-name":'ingresso',
 		"img":"ingresso-com.jpg",
 		"url":"http://www.ingresso.com",
-		"description":"<p>Meu projeto atual. O novo checkout da Ingresso.com</p>",
+		"description":"<p>New ingresso.com catalog. Our goal was to make it faster without lose the high quality images, that is the website appeal. We make it by making performance improvements like adding a lazy loading feature.</p>",
+		"technologies":"AngularJS, HTML, CSS, JS"
+	},
+	{
+		"name":'Ingresso.com',
+		"meta-name":'ingresso',
+		"img":"ingresso-com.jpg",
+		"url":"http://www.ingresso.com",
+		"description":"<p>Ingresso.com checkout. Web application where users buy tickets to movie theater.</p>",
 		"technologies":"AngularJS, HTML, CSS"
 	},
 	{
@@ -12,7 +20,7 @@
 		"meta-name":'bootlegpreacher',
 		"img":"bootlegpreacher.jpg",
 		"url":"http://www.bootlegpreacher.co",
-		"description":"<p>Loja virtual baseada em OpenCart e totalmente customizada. Foi utilizado lightboxes, mosaicos e layouts bem originais.</p>",
+		"description":"<p>eCommerce based in OpenCart. The main challenge back then was to make the mosaic with different image sizes.</p>",
 		"technologies":"OpenCart, HTML, CSS, JS"
 	},
 	{
@@ -20,7 +28,7 @@
 		"meta-name":'mailerweb',
 		"img":"mailerweb.jpg",
 		"url":"https://www.mailerweb.com.br",
-		"description":"<p>Site da MailerWeb, empresa de envio de e-mails.</p>",
+		"description":"<p>Institucional website.</p>",
 		"technologies":"Bootstrap, HTML, CSS, PHP"
 	},
 	{
@@ -28,7 +36,7 @@
 		"meta-name":'esteticapulse',
 		"img":"estetica-pulse.jpg",
 		"url":"http://www.esteticapulse.com.br",
-		"description":"<p>Site institucional sobre empresa de estética Espaço Estética Pulse.</p>",
+		"description":"<p>Institucional website.</p>",
 		"technologies":"HTML, CSS, PHP"
 	},
 	{
@@ -36,7 +44,7 @@
 		"meta-name":'bseller',
 		"img":"bseller.jpg",
 		"url":"http://www.bseller.com.br",
-		"description":"<p>Site institucional da plataforma de loja virtual [B] Seller. Produto da B2W Digital</p>",
+		"description":"<p>Ecommerce platform [B] Seller's institucional website. It's a B2W Digital product.</p>",
 		"technologies":"HTML, CSS, PHP"
 	},
 ]

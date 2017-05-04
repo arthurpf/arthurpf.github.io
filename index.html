@@ -5,37 +5,31 @@ layout: default
 	<div class="wp">
 		<div class="block-info">
 			<h1 class="sr-only">Sobre mim</h1>
-			<p class="au-text">Olá, tenho 24 anos e trabalho como desenvolvedor front-end. Atualmente trabalho na <a href="http://www.ingresso.com/" target="_blank">Ingresso.com</a></p>
-			<p class="text2">Estudo Ciência da Computação e já trabalho com desenvolvimento há mais de 3 anos. Também atuei, por cerca de 1 ano, como desenvolvedor back-end.</p>	
-			<p class="text2">Me interesso por novas tecnologias e projetos open source.</p>
+			<p class="au-text">Hi, I'm 25 years old, brazilian and work as <strong>front-end developer</strong>. Currently working at <a href="http://www.ingresso.com/" target="_blank">Ingresso.com</a></p>
+			<p class="text2">Studying Computer Science and working with software development for 4 years.</p>
+			<p class="text2">Always looking for new technologies and open source projects.</p>
 		</div>
 	</div>
 </section>
 <section id="servicos" class="generic-section section-services">
 	<div class="wp">
-		<h1 class="title2 gc-title">Serviços</h1>
+		<h1 class="title2 gc-title">What I do?</h1>
 		<ul class="service-lst">
 			<li class="srv-it">
 				<article class="service">
-					<h1 class="title1"><span class="icon-cogs icon-size2"></span> Desenvolvimento</h1>
-					<p class="text">Seu negócio precisa se atualizar e se informatizar? Trabalho na criação de sistemas personalizados. Seja um blog, e-commerce, site institucional ou até mesmo um aplicativo para celular.</p>
+					<h1 class="title1"><span class="icon-cogs icon-size2"></span> Development</h1>
+					<p class="text">Of course, my core business. I have been working mostly with Javascript, but have knowledge in PHP and Java. I'm interested in study patterns and performance problems. If there is a pattern or a better way to do it, please show me.</p>				</article>
+			</li>
+			<li class="srv-it">
+				<article class="service">
+					<h1 class="title1"><span class="icon-stats-dots icon-size2"></span> Consulting</h1>
+					<p class="text">Need an upgrade? Problems with SEO, slow loading, applications building process, workflow and browser compatibility is what I do.</p>
 				</article>
 			</li>
 			<li class="srv-it">
 				<article class="service">
-					<h1 class="title1"><span class="icon-stats-dots icon-size2"></span> Consultoria de SEO</h1>
-					<p class="text">A vitrine do seu negócio é o seu site, mas nem sempre ele está tão visível ao seu público quanto você gostaria. O SEO(Search Engine Optimization) são as otimizações feitas no site, para que ele tenha melhor visibilidade na web.</p>
-				</article>
-			</li>
-			<li class="srv-it">
-				<article class="service">
-					<h1 class="title1"><span class="icon-earth icon-size2"></span> Outros</h1>
-					<ul class="lst-tp2">
-						<li class="it-tp2">Otimização da performance de sites</li>
-						<li class="it-tp2">PSD to HTML</li>
-						<li class="it-tp2">Desenvolvimento Back-End</li>
-						<li class="it-tp2">Hospedagem e manutenção de sites</li>
-					</ul>
+					<h1 class="title1"><span class="icon-earth icon-size2"></span> Plus</h1>
+					<p class="text">Thanks to my minor design classes at college, I've learned fundamentals that is important in my job today. Making a user friendly application is important not just for business point of view, but for the user for real. Make an app as if you were to use it!</p>
 				</article>
 			</li>
 		</ul>
@@ -43,7 +37,7 @@ layout: default
 </section>
 <section id="portfolio" class="generic-section section-portfolio">
 	<div class="wp">
-		<h1 class="title2 gc-title">Portfólio</h1>
+		<h1 class="title2 gc-title">Portfolio</h1>
 		<ul class="lst-tp1 portfolio-lst">
 			{% for work in site.data.portfolio %}
 			<li class="it-tp1 prt-it">
@@ -52,7 +46,7 @@ layout: default
 					<img class="prt-img" src="{{ work.img | prepend: "/img/portfolio/" | prepend: site.baseurl }}" alt="{{work.name}}">
 					<div class="text2">
 						{{work.description}}
-						<p><strong>Tecnologias:</strong> {{work.technologies}}</p>
+						<p><strong>Technologies:</strong> {{work.technologies}}</p>
 						<p><strong>Url:</strong> <a href="{{work.url}}" target="_blank">{{work.name}}</a></p>
 					</div>
 				</div>

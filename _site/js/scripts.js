@@ -1,8 +1,6 @@
 $(function(){
 
-
-
-	/*toggle menu usuario*/
+	/*toggle user menu*/
 	(function(){
 
 		var $hdMenuBtn = $('.hd-menu-btn'),

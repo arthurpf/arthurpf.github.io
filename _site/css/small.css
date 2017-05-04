@@ -11,8 +11,7 @@
 .about-author .wp {
   max-width: 80%; }
 .about-author .au-text {
-  font-size: 3em;
-  text-align: left; }
+  font-size: 3em; }
 
 .service-lst {
   overflow: hidden; }
@@ -24,7 +23,7 @@
 
 .section-portfolio .portfolio-lst {
   text-align: left;
-  margin: 0; }
+  margin: 0 -10px; }
 .section-portfolio .prt-it {
-  width: 32.8125%;
-  margin-right: 0.5208333%; }
+  width: calc(50% - 20px);
+  margin: 10px; }

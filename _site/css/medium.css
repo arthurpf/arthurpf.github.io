@@ -15,12 +15,13 @@
     display: inline-block; }
 
 .section-portfolio .prt-it {
-  width: 32.291666%;
-  margin-right: 1.041666%; }
+  width: calc(33.333333% - 20px); }
 
-.about-author .wp {
-  text-align: center; }
-.about-author .block-info {
-  max-width: 960px;
-  display: inline-block;
-  text-align: left; }
+.about-author {
+  background-attachment: fixed; }
+  .about-author .wp {
+    text-align: center; }
+  .about-author .block-info {
+    max-width: 960px;
+    display: inline-block;
+    text-align: left; }

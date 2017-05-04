@@ -101,7 +101,7 @@
 	}
 	a{white-space:pre;}
 
-	.au-text{margin:0 auto 30px;text-align:center;font-size:2em;}
+	.au-text{margin:0 auto 30px;font-size:2em;}
 	.text2, .au-text{text-shadow: 0 0 3px #000;}
 }
 
@@ -113,8 +113,9 @@
 }
 
 .section-portfolio{
+	padding-top:0;
 	overflow:hidden;/* because portfolio-lst margin */
-	.portfolio-lst{text-align:center;margin:0 -15px 0 -10px;}
+	.portfolio-lst{text-align:center;}
 	.prt-img{
 		display:block;margin:0 auto;
 		opacity:1;
@@ -123,7 +124,7 @@
 		-webkit-transform: translateZ(0);
 		transform: translateZ(0);
 	}
-	.prt-it{margin-right:5px;box-shadow:0px 0px 3px 0px #A5A5A5;}
+	.prt-it{margin-bottom:15px; margin-right:0; box-shadow:0px 0px 3px 0px #A5A5A5;}
 	a{
 		display:block;
 		position:relative;
