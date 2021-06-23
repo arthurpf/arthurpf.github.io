@@ -17,6 +17,31 @@ $(function(){
 
 		});
 	})();
+	
+	function getYearsFromDateToNow(date) {
+	  var now = new Date();
+	  var result = 0;
+	  if(now.getMonth() === date.getMonth()) {
+	  if(now.getDay() >= date.getDay()) {
+	    result =  now.getFullYear() - date.getFullYear();
+	  }
+	} else if(now.getMonth() > date.getMonth()) {
+	  result =  now.getFullYear() - date.getFullYear();
+	} else {
+	  result =  now.getFullYear() - date.getFullYear() - 1;
+	}
+
+		return result
+	}
+	
+	
+	/* age counter */
+	var birthDate = new Date(1992, 0, 19);
+	var developerStart = new Date(2012, 0, 1);;
+	
+	
+	$('.js-age').text(getYearsFromDateToNow(birthDate));
+	$('.js-work-years').text(getYearsFromDateToNow(developerStart))
 
 	/*portfolio*/
 	$('.open-popup-link').magnificPopup({
